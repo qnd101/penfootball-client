@@ -1,0 +1,18 @@
+{
+  "LOGIN_ENDPOINT": "https://localhost:7055/api/users/login",
+  "SIGNUP_ENDPOINT": "https://localhost:7055/api/users/signup",
+  "MYDATA_ENDPOINT": "https://localhost:7055/api/users/mydata",
+  "VIEWDATA_ENDPOINT": "https://localhost:7055/api/users/view",
+  "NEWBIE_ENDPOINT": "https://localhost:7055/documents/newbie",
+  "LEADERBOARD_ENDPOINT": "https://localhost:7055/documents/leaderboard",
+  "EMAILAUTH_ENDPOINT": "",
+  "SRV_LIST": ["LOCAL", "NONE"],
+  "LOCAL": {
+    "SIGNALR_ENDPOINT": "https://localhost:7277/gameHub",
+    "SUMMARY_ENDPOINT": "https://localhost:7277/api/gamedata/summary"
+  },
+  "NONE": {
+    "SIGNALR_ENDPOINT": "https://localhost:7277/gameHub",
+    "SUMMARY_ENDPOINT": "https://localhost:7277/api/gamedata/summary"
+  }
+}

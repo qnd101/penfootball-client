@@ -1,0 +1,37 @@
+.div-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Source Sans 3";
+    font-size: 0.5rem;
+    justify-content: space-around;
+    color: white;
+}
+
+.input-chat{
+    font:inherit;
+    width:80%;
+}
+
+.ul-chat {
+    text-align: start;
+    width: 90%;
+    height: 50%;
+    overflow-y: auto; /* Enable scroll if needed */
+    list-style-type: none;
+}
+
+li {
+    
+    overflow: hidden; /* Hide overflow */
+    word-wrap: break-word; /* Break long words onto the next line */
+    white-space: normal;
+}
+
+.chat-desc {
+    font-weight: 500;
+    color: red;
+    font-size: 0.5rem;
+    display: inline-block;
+    height: 10%;
+}

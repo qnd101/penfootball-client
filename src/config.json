@@ -1,0 +1,18 @@
+{
+  "LOGIN_ENDPOINT": "https://penfootball.online/api/users/login",
+  "SIGNUP_ENDPOINT": "https://penfootball.online/api/users/signup",
+  "MYDATA_ENDPOINT": "https://penfootball.online/api/users/mydata",
+  "VIEWDATA_ENDPOINT": "https://penfootball.online/api/users/view",
+  "NEWBIE_ENDPOINT": "https://penfootball.online/documents/newbie",
+  "LEADERBOARD_ENDPOINT": "https://penfootball.online/documents/leaderboard",
+  "EMAILAUTH_ENDPOINT": "https://penfootball.online/api/users/emailauth",
+  "SRV_LIST":["SSHSPhys", "KOR1"],
+  "SSHSPhys": {
+    "SIGNALR_ENDPOINT": "http://game.penfootball.online:14081/gameHub",
+    "SUMMARY_ENDPOINT": "http://game.penfootball.online:14081/api/gamedata/summary"
+  },
+  "KOR1": {
+    "SIGNALR_ENDPOINT": "https://kor1.penfootball.online/gameHub",
+    "SUMMARY_ENDPOINT": "https://kor1.penfootball.online/api/gamedata/summary"
+  }
+}

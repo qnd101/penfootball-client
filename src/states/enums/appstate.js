@@ -1,0 +1,8 @@
+//State 관련 상수들
+const PREVIEW = 'PREVIEW';
+const WAITING_MATCH = 'WAITING_MATCH';
+const GAMING = 'GAMING';
+const LOGIN = 'LOGIN';
+const SIGNUP = 'SIGNUP';
+const TRAINING = 'TRAINING'
+export {PREVIEW , WAITING_MATCH, GAMING, LOGIN, SIGNUP, TRAINING };

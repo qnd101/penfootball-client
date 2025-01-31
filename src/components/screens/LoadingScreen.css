@@ -1,0 +1,55 @@
+#container-loading {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+    color: white;
+  }
+  20% {
+    transform: translateX(2%);
+  }
+  50%{
+    transform: translateX(-2%);
+    color: rgb(133, 196, 255);
+  }
+  70% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(0%);
+    color: white;
+  }
+}
+
+
+#label-loading {
+  font-family: inherit;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight:800;
+  text-align: center;
+  animation: shake 1s infinite ease-in-out;
+}
+
+#label-description {
+  color: black;
+  font-family: inherit;
+  font-size: 0.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  text-align: center;
+  --temp: rgb(220, 247, 255);
+}
+
+#hr-between {
+  margin: 8px;
+  border-style: solid;
+  border-width: 2px;
+}

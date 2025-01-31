@@ -1,0 +1,17 @@
+#label-waiting{
+    font-weight: 600;
+    font-size : 1.6rem;
+}
+
+#container-waiting{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#article-waitingdesc {
+    color: black;
+    font-size: 0.7rem;
+    margin-top: 1rem;;
+}
