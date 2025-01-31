@@ -6,7 +6,7 @@
   "NEWBIE_ENDPOINT": "https://penfootball.online/documents/newbie",
   "LEADERBOARD_ENDPOINT": "https://penfootball.online/documents/leaderboard",
   "EMAILAUTH_ENDPOINT": "https://penfootball.online/api/users/emailauth",
-  "SRV_LIST":["SSHSPhys", "KOR1"],
+  "SRV_LIST":["KOR1","SSHSPhys"],
   "SSHSPhys": {
     "SIGNALR_ENDPOINT": "http://game.penfootball.online:14081/gameHub",
     "SUMMARY_ENDPOINT": "http://game.penfootball.online:14081/api/gamedata/summary"
